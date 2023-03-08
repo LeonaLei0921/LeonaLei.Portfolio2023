@@ -1,0 +1,106 @@
+html{
+	box-sizing:border-box;
+}
+
+body{
+	height:100%;
+	background-image:linear-gradient(to right top, #f2e8f2, #f4edf5, #f6f1f8, #f8f6fa, #fbfafc, #fafafd, #f9f9fd, #f7f9fe, #eef6fc, #e3f3f8, #daf0f1, #d4ede7);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	margin:0;
+	padding:0;
+}
+
+/*navbar left--------------------------------------------------*/
+
+.navbar{
+	width:100%;
+}
+
+.container{
+	width:calc(100% - 280px);
+	margin:0px 140px 30px 140px;
+	overflow:hidden;
+	clear:both;
+}
+
+.navHead{
+	width:9999px;
+}
+
+.name{
+	float:left;
+	width:150px;
+	height:25px;
+	background-color:none;
+	border:3px solid black;
+	border-radius:35px;
+	font-family:'DM Sans', sans-serif;
+	font-weight: bold;
+	font-size:20px;
+	color:black;
+	text-align:center;
+	margin:30px 0px 30px 0px;
+	padding:0px;
+}
+
+.design{
+	float:left;
+	width:400px;
+	height:25px;
+	background-color:none;
+	border:3px solid black;
+	border-radius:35px;
+	font-family:'DM Sans', sans-serif;
+	font-size:20px;
+	color:black;
+	text-align:center;
+	margin:30px 16px 30px 16px;
+	padding:0px;
+}
+
+/*navbar right--------------------------------------------------*/
+
+.menu{
+	margin-top:30px;
+}
+
+.menuButton{
+	float:right;
+	height:35px;
+	width:38px;
+	border:3px solid black;
+	border-radius:35px;
+	overflow:hidden;
+	display:block;
+	margin-left:16px;
+}
+
+.menuButton img{
+	padding:6px 0px 0px 8px;
+}
+
+.menuButton span{
+	font-family:'DM Sans', sans-serif;
+	font-weight: bold;
+	font-size:16px;
+	color:black;
+	padding-right:10px;
+}
+
+.menuButton:hover , .menuButton:active{
+	width:auto;
+}
+
+.menuButton:hover span ,  .menuButton:active span{
+	position:relative;
+	bottom:5px;
+}
+
+/*intro--------------------------------------------------*/
+
+#intro{
+	height:500px;
+	border:3px solid black;
+	border-radius:35px;
+}
